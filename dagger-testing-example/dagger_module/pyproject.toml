@@ -1,0 +1,9 @@
+[project]
+name = "dagger_testing"
+version = "0.1.0"
+
+[project.entry-points."dagger.mod"]
+main_object = "dagger_testing.main:DaggerTestingExample"
+
+[tool.dagger]
+source = "src"
